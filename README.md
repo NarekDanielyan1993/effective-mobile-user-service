@@ -16,7 +16,7 @@ Database Setup
 
 1. Make sure your local PostgreSql server is running.
 2. Create a .env file in the root directory and set your PostgreSql database credentials:
-   DATABASE_URL=mysql://user:password@localhost:3306/database
+   DATABASE_URL=postgresql://user:password@localhost:5432/database
    Replace user, password, and database with your PostgreSql credentials.
 3. copy env variables of env.example file located in the root directory into the .env file
 
